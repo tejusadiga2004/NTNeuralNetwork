@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C2FC8BF2104AC0E00146199 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC8BE2104AC0E00146199 /* main.cpp */; };
+		9C2FC8C62104AC4800146199 /* libNTNeuralFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEA58E42103682C004CE278 /* libNTNeuralFramework.a */; };
+		9C48FEBA2108CA1300CEFEB3 /* NTArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEA02108CA1300CEFEB3 /* NTArray.cpp */; };
+		9C48FEBB2108CA1300CEFEB3 /* NTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEA12108CA1300CEFEB3 /* NTArray.h */; };
+		9C48FEBC2108CA1300CEFEB3 /* NTLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEA22108CA1300CEFEB3 /* NTLinkedList.cpp */; };
+		9C48FEBD2108CA1300CEFEB3 /* NTLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEA32108CA1300CEFEB3 /* NTLinkedList.h */; };
+		9C48FEBE2108CA1300CEFEB3 /* NTObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEA42108CA1300CEFEB3 /* NTObject.cpp */; };
+		9C48FEBF2108CA1300CEFEB3 /* NTObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEA52108CA1300CEFEB3 /* NTObject.h */; };
+		9C48FEC02108CA1300CEFEB3 /* NTProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEA62108CA1300CEFEB3 /* NTProperty.h */; };
+		9C48FEC12108CA1300CEFEB3 /* NTDeepNeuralNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEA82108CA1300CEFEB3 /* NTDeepNeuralNetwork.cpp */; };
+		9C48FEC22108CA1300CEFEB3 /* NTDeepNeuralNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEA92108CA1300CEFEB3 /* NTDeepNeuralNetwork.h */; };
+		9C48FEC32108CA1300CEFEB3 /* NTFeedForwardNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEAA2108CA1300CEFEB3 /* NTFeedForwardNetwork.cpp */; };
+		9C48FEC42108CA1300CEFEB3 /* NTFeedForwardNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEAB2108CA1300CEFEB3 /* NTFeedForwardNetwork.h */; };
+		9C48FEC52108CA1300CEFEB3 /* NTNeuralLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEAC2108CA1300CEFEB3 /* NTNeuralLayer.cpp */; };
+		9C48FEC62108CA1300CEFEB3 /* NTNeuralLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEAD2108CA1300CEFEB3 /* NTNeuralLayer.h */; };
+		9C48FEC72108CA1300CEFEB3 /* NTActivationFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEAF2108CA1300CEFEB3 /* NTActivationFunction.cpp */; };
+		9C48FEC82108CA1300CEFEB3 /* NTActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEB02108CA1300CEFEB3 /* NTActivationFunction.h */; };
+		9C48FEC92108CA1300CEFEB3 /* NTLinearKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEB12108CA1300CEFEB3 /* NTLinearKernel.cpp */; };
+		9C48FECA2108CA1300CEFEB3 /* NTLinearKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEB22108CA1300CEFEB3 /* NTLinearKernel.h */; };
+		9C48FECB2108CA1300CEFEB3 /* NTLinearFilterable.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEB42108CA1300CEFEB3 /* NTLinearFilterable.h */; };
+		9C48FECC2108CA1300CEFEB3 /* NTNeuralNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEB52108CA1300CEFEB3 /* NTNeuralNetwork.h */; };
+		9C48FECD2108CA1300CEFEB3 /* NTNeuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEB62108CA1300CEFEB3 /* NTNeuron.cpp */; };
+		9C48FECE2108CA1300CEFEB3 /* NTNeuron.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEB72108CA1300CEFEB3 /* NTNeuron.h */; };
+		9C48FECF2108CA1300CEFEB3 /* NTNeuronPin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C48FEB82108CA1300CEFEB3 /* NTNeuronPin.cpp */; };
+		9C48FED02108CA1300CEFEB3 /* NTNeuronPin.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48FEB92108CA1300CEFEB3 /* NTNeuronPin.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C2FC8C32104AC3F00146199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CEA58DC2103682C004CE278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CEA58E32103682C004CE278;
+			remoteInfo = NTNeuralFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C2FC8BA2104AC0E00146199 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C2FC8BC2104AC0E00146199 /* NTNeuralNetworkTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NTNeuralNetworkTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2FC8BE2104AC0E00146199 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C48FEA02108CA1300CEFEB3 /* NTArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTArray.cpp; sourceTree = "<group>"; };
+		9C48FEA12108CA1300CEFEB3 /* NTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTArray.h; sourceTree = "<group>"; };
+		9C48FEA22108CA1300CEFEB3 /* NTLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTLinkedList.cpp; sourceTree = "<group>"; };
+		9C48FEA32108CA1300CEFEB3 /* NTLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTLinkedList.h; sourceTree = "<group>"; };
+		9C48FEA42108CA1300CEFEB3 /* NTObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTObject.cpp; sourceTree = "<group>"; };
+		9C48FEA52108CA1300CEFEB3 /* NTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTObject.h; sourceTree = "<group>"; };
+		9C48FEA62108CA1300CEFEB3 /* NTProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTProperty.h; sourceTree = "<group>"; };
+		9C48FEA82108CA1300CEFEB3 /* NTDeepNeuralNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTDeepNeuralNetwork.cpp; sourceTree = "<group>"; };
+		9C48FEA92108CA1300CEFEB3 /* NTDeepNeuralNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDeepNeuralNetwork.h; sourceTree = "<group>"; };
+		9C48FEAA2108CA1300CEFEB3 /* NTFeedForwardNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTFeedForwardNetwork.cpp; sourceTree = "<group>"; };
+		9C48FEAB2108CA1300CEFEB3 /* NTFeedForwardNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTFeedForwardNetwork.h; sourceTree = "<group>"; };
+		9C48FEAC2108CA1300CEFEB3 /* NTNeuralLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTNeuralLayer.cpp; sourceTree = "<group>"; };
+		9C48FEAD2108CA1300CEFEB3 /* NTNeuralLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNeuralLayer.h; sourceTree = "<group>"; };
+		9C48FEAF2108CA1300CEFEB3 /* NTActivationFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTActivationFunction.cpp; sourceTree = "<group>"; };
+		9C48FEB02108CA1300CEFEB3 /* NTActivationFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTActivationFunction.h; sourceTree = "<group>"; };
+		9C48FEB12108CA1300CEFEB3 /* NTLinearKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTLinearKernel.cpp; sourceTree = "<group>"; };
+		9C48FEB22108CA1300CEFEB3 /* NTLinearKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTLinearKernel.h; sourceTree = "<group>"; };
+		9C48FEB42108CA1300CEFEB3 /* NTLinearFilterable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTLinearFilterable.h; sourceTree = "<group>"; };
+		9C48FEB52108CA1300CEFEB3 /* NTNeuralNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNeuralNetwork.h; sourceTree = "<group>"; };
+		9C48FEB62108CA1300CEFEB3 /* NTNeuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTNeuron.cpp; sourceTree = "<group>"; };
+		9C48FEB72108CA1300CEFEB3 /* NTNeuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNeuron.h; sourceTree = "<group>"; };
+		9C48FEB82108CA1300CEFEB3 /* NTNeuronPin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTNeuronPin.cpp; sourceTree = "<group>"; };
+		9C48FEB92108CA1300CEFEB3 /* NTNeuronPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNeuronPin.h; sourceTree = "<group>"; };
+		9CEA58E42103682C004CE278 /* libNTNeuralFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTNeuralFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C2FC8B92104AC0E00146199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2FC8C62104AC4800146199 /* libNTNeuralFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEA58E22103682C004CE278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C2FC8BD2104AC0E00146199 /* NTNeuralNetworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				9C2FC8BE2104AC0E00146199 /* main.cpp */,
+			);
+			path = NTNeuralNetworkTest;
+			sourceTree = "<group>";
+		};
+		9C48FE9E2108CA1300CEFEB3 /* NTNeuralNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				9C48FE9F2108CA1300CEFEB3 /* DataStructure */,
+				9C48FEA72108CA1300CEFEB3 /* Graph */,
+				9C48FEAE2108CA1300CEFEB3 /* Kernel */,
+				9C48FEB32108CA1300CEFEB3 /* Neuron */,
+			);
+			path = NTNeuralNetwork;
+			sourceTree = "<group>";
+		};
+		9C48FE9F2108CA1300CEFEB3 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				9C48FEA02108CA1300CEFEB3 /* NTArray.cpp */,
+				9C48FEA12108CA1300CEFEB3 /* NTArray.h */,
+				9C48FEA22108CA1300CEFEB3 /* NTLinkedList.cpp */,
+				9C48FEA32108CA1300CEFEB3 /* NTLinkedList.h */,
+				9C48FEA42108CA1300CEFEB3 /* NTObject.cpp */,
+				9C48FEA52108CA1300CEFEB3 /* NTObject.h */,
+				9C48FEA62108CA1300CEFEB3 /* NTProperty.h */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		9C48FEA72108CA1300CEFEB3 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				9C48FEA82108CA1300CEFEB3 /* NTDeepNeuralNetwork.cpp */,
+				9C48FEA92108CA1300CEFEB3 /* NTDeepNeuralNetwork.h */,
+				9C48FEAA2108CA1300CEFEB3 /* NTFeedForwardNetwork.cpp */,
+				9C48FEAB2108CA1300CEFEB3 /* NTFeedForwardNetwork.h */,
+				9C48FEAC2108CA1300CEFEB3 /* NTNeuralLayer.cpp */,
+				9C48FEAD2108CA1300CEFEB3 /* NTNeuralLayer.h */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		9C48FEAE2108CA1300CEFEB3 /* Kernel */ = {
+			isa = PBXGroup;
+			children = (
+				9C48FEAF2108CA1300CEFEB3 /* NTActivationFunction.cpp */,
+				9C48FEB02108CA1300CEFEB3 /* NTActivationFunction.h */,
+				9C48FEB12108CA1300CEFEB3 /* NTLinearKernel.cpp */,
+				9C48FEB22108CA1300CEFEB3 /* NTLinearKernel.h */,
+			);
+			path = Kernel;
+			sourceTree = "<group>";
+		};
+		9C48FEB32108CA1300CEFEB3 /* Neuron */ = {
+			isa = PBXGroup;
+			children = (
+				9C48FEB42108CA1300CEFEB3 /* NTLinearFilterable.h */,
+				9C48FEB52108CA1300CEFEB3 /* NTNeuralNetwork.h */,
+				9C48FEB62108CA1300CEFEB3 /* NTNeuron.cpp */,
+				9C48FEB72108CA1300CEFEB3 /* NTNeuron.h */,
+				9C48FEB82108CA1300CEFEB3 /* NTNeuronPin.cpp */,
+				9C48FEB92108CA1300CEFEB3 /* NTNeuronPin.h */,
+			);
+			path = Neuron;
+			sourceTree = "<group>";
+		};
+		9CEA58DB2103682C004CE278 = {
+			isa = PBXGroup;
+			children = (
+				9C48FE9E2108CA1300CEFEB3 /* NTNeuralNetwork */,
+				9C2FC8BD2104AC0E00146199 /* NTNeuralNetworkTest */,
+				9CEA58E52103682C004CE278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CEA58E52103682C004CE278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CEA58E42103682C004CE278 /* libNTNeuralFramework.a */,
+				9C2FC8BC2104AC0E00146199 /* NTNeuralNetworkTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9CEA58E02103682C004CE278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C48FEBB2108CA1300CEFEB3 /* NTArray.h in Headers */,
+				9C48FEBD2108CA1300CEFEB3 /* NTLinkedList.h in Headers */,
+				9C48FEC82108CA1300CEFEB3 /* NTActivationFunction.h in Headers */,
+				9C48FEC02108CA1300CEFEB3 /* NTProperty.h in Headers */,
+				9C48FEC42108CA1300CEFEB3 /* NTFeedForwardNetwork.h in Headers */,
+				9C48FEC22108CA1300CEFEB3 /* NTDeepNeuralNetwork.h in Headers */,
+				9C48FEBF2108CA1300CEFEB3 /* NTObject.h in Headers */,
+				9C48FECE2108CA1300CEFEB3 /* NTNeuron.h in Headers */,
+				9C48FED02108CA1300CEFEB3 /* NTNeuronPin.h in Headers */,
+				9C48FEC62108CA1300CEFEB3 /* NTNeuralLayer.h in Headers */,
+				9C48FECC2108CA1300CEFEB3 /* NTNeuralNetwork.h in Headers */,
+				9C48FECB2108CA1300CEFEB3 /* NTLinearFilterable.h in Headers */,
+				9C48FECA2108CA1300CEFEB3 /* NTLinearKernel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C2FC8BB2104AC0E00146199 /* NTNeuralNetworkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2FC8C02104AC0E00146199 /* Build configuration list for PBXNativeTarget "NTNeuralNetworkTest" */;
+			buildPhases = (
+				9C2FC8B82104AC0E00146199 /* Sources */,
+				9C2FC8B92104AC0E00146199 /* Frameworks */,
+				9C2FC8BA2104AC0E00146199 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C2FC8C42104AC3F00146199 /* PBXTargetDependency */,
+			);
+			name = NTNeuralNetworkTest;
+			productName = NTNeuralNetworkTest;
+			productReference = 9C2FC8BC2104AC0E00146199 /* NTNeuralNetworkTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		9CEA58E32103682C004CE278 /* NTNeuralFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEA58E82103682C004CE278 /* Build configuration list for PBXNativeTarget "NTNeuralFramework" */;
+			buildPhases = (
+				9CEA58E02103682C004CE278 /* Headers */,
+				9CEA58E12103682C004CE278 /* Sources */,
+				9CEA58E22103682C004CE278 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTNeuralFramework;
+			productName = NTNeuralFramework;
+			productReference = 9CEA58E42103682C004CE278 /* libNTNeuralFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CEA58DC2103682C004CE278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Entropy;
+				TargetAttributes = {
+					9C2FC8BB2104AC0E00146199 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9CEA58E32103682C004CE278 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 9CEA58DF2103682C004CE278 /* Build configuration list for PBXProject "NTNeuralFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CEA58DB2103682C004CE278;
+			productRefGroup = 9CEA58E52103682C004CE278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CEA58E32103682C004CE278 /* NTNeuralFramework */,
+				9C2FC8BB2104AC0E00146199 /* NTNeuralNetworkTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C2FC8B82104AC0E00146199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2FC8BF2104AC0E00146199 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEA58E12103682C004CE278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C48FEBA2108CA1300CEFEB3 /* NTArray.cpp in Sources */,
+				9C48FEC12108CA1300CEFEB3 /* NTDeepNeuralNetwork.cpp in Sources */,
+				9C48FEC72108CA1300CEFEB3 /* NTActivationFunction.cpp in Sources */,
+				9C48FECF2108CA1300CEFEB3 /* NTNeuronPin.cpp in Sources */,
+				9C48FEBC2108CA1300CEFEB3 /* NTLinkedList.cpp in Sources */,
+				9C48FEC32108CA1300CEFEB3 /* NTFeedForwardNetwork.cpp in Sources */,
+				9C48FEBE2108CA1300CEFEB3 /* NTObject.cpp in Sources */,
+				9C48FECD2108CA1300CEFEB3 /* NTNeuron.cpp in Sources */,
+				9C48FEC52108CA1300CEFEB3 /* NTNeuralLayer.cpp in Sources */,
+				9C48FEC92108CA1300CEFEB3 /* NTLinearKernel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C2FC8C42104AC3F00146199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CEA58E32103682C004CE278 /* NTNeuralFramework */;
+			targetProxy = 9C2FC8C32104AC3F00146199 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C2FC8C12104AC0E00146199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = ../Output/Test;
+				DEVELOPMENT_TEAM = V94DT2JYF6;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Output/NTNeuralFramework/inc\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Output/NTNeuralFramework\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C2FC8C22104AC0E00146199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = ../Output/Test;
+				DEVELOPMENT_TEAM = V94DT2JYF6;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Output/NTNeuralFramework/inc\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Output/NTNeuralFramework\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CEA58E62103682C004CE278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9CEA58E72103682C004CE278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9CEA58E92103682C004CE278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = ../Output/NTNeuralFramework;
+				DEVELOPMENT_TEAM = V94DT2JYF6;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /inc;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9CEA58EA2103682C004CE278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = ../Output/NTNeuralFramework;
+				DEVELOPMENT_TEAM = V94DT2JYF6;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /inc;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C2FC8C02104AC0E00146199 /* Build configuration list for PBXNativeTarget "NTNeuralNetworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2FC8C12104AC0E00146199 /* Debug */,
+				9C2FC8C22104AC0E00146199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CEA58DF2103682C004CE278 /* Build configuration list for PBXProject "NTNeuralFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEA58E62103682C004CE278 /* Debug */,
+				9CEA58E72103682C004CE278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CEA58E82103682C004CE278 /* Build configuration list for PBXNativeTarget "NTNeuralFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEA58E92103682C004CE278 /* Debug */,
+				9CEA58EA2103682C004CE278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CEA58DC2103682C004CE278 /* Project object */;
+}
